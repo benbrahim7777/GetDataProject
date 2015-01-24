@@ -25,16 +25,17 @@ You should create one R script called run_analysis.R that does the following.
 1. get the data for the project from : 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
 2- Unzip the downloaded file in "./data/UCI HAR Dataset/" directory.
 
-2. Put all R scripts in your current directory which should the parent directory of "./data/UCI HAR Dataset/".
+3. Put all R scripts in your current directory which should the parent directory of "./data/UCI HAR Dataset/".
 
-3- Set the RStudio working directory to the directory containing R scripts.
+4- Set the RStudio working directory to the directory containing R scripts.
 
-4. Run ("run_analysis.R") to save tidy merged data to "./my_tidy_average_merged_data.txt".
+5. Run "run_analysis.R" to save tidy merged data to "./my_tidy_average_merged_data.txt".
 
 
 
 ## Course project Libraries 
 
-"reshape2" and "data.table". 
+The "run_analysis.R" epends on two libraries: "reshape2" and "data.table". 
